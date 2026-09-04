@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*", 
+      "destination": "https://smarthire-production-api.onrender.com/api/:path*"
+    },
+    {
+      "source": "/uploads/:path*", 
+      "destination": "https://smarthire-production-api.onrender.com/uploads/:path*"
+    }
+  ]
+}
